@@ -1,6 +1,8 @@
+import {Heading} from "@chakra-ui/react";
+
 const HomePage = () => {
     return (
-        <h1>Welcome!</h1>
+        <Heading size={"xl"}>Welcome!</Heading>
     )
 }
 
