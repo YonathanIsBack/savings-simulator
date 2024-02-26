@@ -5,14 +5,6 @@ module.exports = {
         'jest/globals': true
     },
     extends: ['plugin:react/recommended', 'airbnb', 'plugin:react/jsx-runtime'],
-    parserOption: {
-        ecmaFeatures: {
-            jsx: true
-        },
-        ecmaVersion: 'latest',
-        requireConfigFile: false,
-        sourceType: 'module'
-    },
     plugins: [
         'react',
         'jest',
