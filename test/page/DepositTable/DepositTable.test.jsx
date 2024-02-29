@@ -1,5 +1,6 @@
-import {getAllByRole, getByText, render, screen} from '@testing-library/react';
-import { Th } from '@chakra-ui/react';
+import {
+  getAllByRole, getByText, render, screen
+} from '@testing-library/react';
 import DepositTable from '../../../src/page/DepositTable/DepositTable';
 
 describe('DepositTable', () => {
