@@ -1,7 +1,12 @@
-import { Heading } from '@chakra-ui/react';
+import { Stack } from '@chakra-ui/react';
+import DepositTable from './DepositTable/DepositTable';
+import Header from './Header/Header';
 
 const HomePage = () => (
-  <Heading size="xl">Welcome!</Heading>
+  <Stack>
+    <Header />
+    <DepositTable />
+  </Stack>
 );
 
 export default HomePage;
