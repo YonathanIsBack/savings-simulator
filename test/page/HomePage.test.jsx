@@ -7,4 +7,10 @@ describe('HomePage', () => {
 
     expect(screen.getByText('Welcome!')).toBeDefined();
   });
+
+  it('should display deposit table', () => {
+    render(<HomePage />);
+
+    expect(document.querySelector('#deposit-table')).toBeDefined();
+  });
 });
